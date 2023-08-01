@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px black;
+    color: #664D03 !important;
+}
+
+.navbar {
+    border-bottom: 0.5px solid black;
+
+}
+
+.collapse ul li a {
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-shadow: 0.5px 0.5px black;
+    color: #664D03 !important;
+}
+
+.dropdown-menu {
+    background-color: #212529;
+}
+
+main {
+    background-color: #171717;
+    height: 100vh;
+    padding-top: 10px;
+    text-shadow: 0.5px 0.5px black;
+
+    color: #664D03;
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.formApiRest {
+    width: 250px;
+    margin: 0 auto;
+}
+ input {
+    border: 1px solid #212529 !important;
+    background-color: #171717 !important;
+    color: white !important;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 0 0 0 2px transparent; /* Cambia "transparent" al color que desees */
+
+    outline: none;
+}
+form div input:focus {
+    outline-color: #664D03;
+    border: none !important;
+    transition-duration: 1s;
+    box-shadow: 0 0 0 2px #664D03; /* Cambia "blue" al color que desees */
+
+ 
+}
+form {
+    text-align: center;
+    padding: 10px;
+    background: rgb(33,37,41);
+    background: radial-gradient(circle, rgba(33,37,41,1) 0%, rgba(23,23,23,1) 100%);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 0px black;
+    border: 0.5px solid #664D03;
+    border-left: 5px solid #664D03;
+    color: #664D03;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+}
+form:hover {
+    transform: scale(1.0500);
+    transition-duration: 1s;
+}
+
+.btn {
+    text-shadow: 0.5px 0.5px black;
+    color: #664D03 !important;
+    box-shadow: 3px 3px 3px 0px black;
+}
+.alert {
+    text-shadow: none;
+}

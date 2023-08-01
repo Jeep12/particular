@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <h5>Juego Casino</h5>
+                <div class="mb-3">
+                    <div class="alert alert-warning" role="alert">
+                        <i class="fa-solid fa-triangle-exclamation"></i> ¡Rango maximo 25!
+                      </div>
+                    <label for="rango" class="form-label">Rango:</label>
+                    <input type="number" id="rango" placeholder="Ingrese el rango">
+                </div>
+                <div class="mb-3">
+                    <label for="numeroElegido" class="form-label">Número elegido:</label>
+                    <input type="number"  id="numeroElegido" placeholder="Ingrese el número elegido">
+                </div>
+                <button type="submit" id="btn-jugar" class="btn btn-dark">Enviar</button>
+            </form>
+
+        </div>
+        <div></div>
+        <p style="color: red;"></p>
+        <ul style="color: red;"> </ul>
+        <div class="col-md-6">
+            <h5>Resultado del juego</h5>
+            <ul style="list-style: none;">
+                <li>Ganadas: <p id="ganadas"></p> </li>
+                <li>Perdidas:  <p id="perdidas"></p></li>
+            </ul>
+      
+            <div id="resultado"></div>
+            <button  class="btn btn-dark" id="reiniciar">Reiniciar</button>
+        </div>
+    </div>
+</div>
